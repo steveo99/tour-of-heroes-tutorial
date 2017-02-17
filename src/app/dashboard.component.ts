@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
+import { HeroSearchService } from './hero-search.service';
 
 @Component({
     selector: 'my-dashboard',
